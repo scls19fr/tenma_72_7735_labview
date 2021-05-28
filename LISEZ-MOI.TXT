@@ -1,0 +1,50 @@
+La version Labview du driver pour TENMA 72-7735
+n'est pas encore fonctionnelle
+
+Utiliser la version en Python + PySerial ou le logiciel fourni
+
+===
+
+ToDo
+seg2dec
+mise en forme trame
+cf exemple /=BW`u‹ž ¸ÀÔè
+ou en hexa : 172F 3D42 5760 758B 9EA0 B8C0 D4E8 
+
+A améliorer (notion de contrôle personnalisé)
+lorsque fait créer une commande depuis un indicateur 7 segments (avec ou sans point)
+la commande montre l'afficheur 7 segments et non des interrupteurs (comme une "vraie" commande)
+
+A améliorer (notion de contrôle personnalisé)
+faire un ctl avec entrée bool et string qui affiche la chaine quand bool vrai
+et qui affiche rien (chaine vide) quand bool faux
+
+
+===
+
+Pour Labview
+utiliser la version 8.5 de Labview
+avec NI VISA
+http://sine.ni.com/nips/cds/view/p/lang/fr/nid/12145
+
+
+http://www.ni.com/visa/
+http://www.ni.com/download/ni-visa-14.0.1/5023/en/
+
+Control RTS / DTR
+http://digital.ni.com/public.nsf/allkb/1ECEFAA7AD52994986256966005356EA
+
+===
+
+Créer tableau des caractères
+
+===
+
+Lookup table
+https://decibel.ni.com/content/docs/DOC-25371
+
+===
+
+Seven segments display
+http://forums.ni.com/t5/LabVIEW/sending-digits-throug-serial-please-help/td-p/1401286/page/3
+http://forums.ni.com/t5/Discussions-au-sujet-de-NI/Comment-Programmer-un-Interpreteur-dans-Labview/td-p/2226746
